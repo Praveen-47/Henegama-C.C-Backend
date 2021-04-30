@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const subjectController = require("../../controllers/academic/subjects");
+const subjectController = require("../../controllers/class/subjects");
 
 module.exports = router
   .get("/get", subjectController.getAllSubjects)
