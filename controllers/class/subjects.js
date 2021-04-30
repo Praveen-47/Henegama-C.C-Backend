@@ -1,4 +1,4 @@
-const Subjects = require("../../models/academic/subjects");
+const Subjects = require("../../models/class/subjects");
 const promise = require("../../middleware/promise");
 
 //get all subjects
