@@ -1,4 +1,4 @@
-const Classes = require("../../models/academic/class");
+const Classes = require("../../models/class/class");
 const promise = require("../../middleware/promise");
 
 //get all classes
