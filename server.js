@@ -10,8 +10,8 @@ const studentsRouter = require("./routes/students");
 const teachersRouter = require("./routes/teachers");
 const examsRouter = require("./routes/exams/exams");
 
-const subjectRouter = require("./routes/academic/subjects");
-const classRouter = require("./routes/academic/class");
+const subjectRouter = require("./routes/class/subjects");
+const classRouter = require("./routes/class/class");
 
 //init the app
 const app = express();
